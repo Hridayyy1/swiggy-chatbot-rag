@@ -163,17 +163,6 @@ The UI will connect to the FastAPI backend and allow you to ask questions about 
 
 ---
 
-# Example Questions
-
-You can try questions such as:
-
-* What is Swiggy's revenue?
-* What business segments does Swiggy operate in?
-* What are the growth strategies mentioned in the report?
-* What challenges does Swiggy discuss?
-
----
-
 # Key Features
 
 **Document Question Answering**
@@ -216,11 +205,5 @@ VJTI Mumbai
 GitHub
 https://github.com/Hridayyy1
 
-LinkedIn
-https://www.linkedin.com/in/hriday-ranawat-b71b50328/
 
----
 
-# License
-
-This project is open source and available under the MIT License.
