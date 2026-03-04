@@ -97,9 +97,9 @@ This architecture allows the chatbot to provide answers grounded in the document
 
 ## 1. Clone the Repository
 
-git clone https://github.com/Hridayyy1/siggy-chatbot-rag.git
+git clone https://github.com/Hridayyy1/swiggy-chatbot-rag.git
 
-cd siggy-chatbot-rag
+cd swiggy-chatbot-rag
 
 ---
 
