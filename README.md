@@ -29,25 +29,25 @@ This allows the chatbot to answer questions directly from the document.
 
 # Tech Stack
 
-Backend
+**Backend**
 
 * FastAPI
 * Python
 
-AI / NLP
+**AI / NLP**
 
 * Sentence Transformers
 * Embedding models
 
-Vector Database
+**Vector Database**
 
 * ChromaDB
 
-PDF Processing
+**PDF Processing**
 
 * PyPDF2
 
-Frontend
+**Frontend**
 
 * HTML
 * CSS
@@ -57,22 +57,15 @@ Frontend
 
 # Project Structure
 
-swiggy-chatbot-rag
+```
+swiggy-chatbot-rag/
 
-server.py
-FastAPI backend that handles PDF processing, embedding generation, vector search, and chatbot responses.
-
-index.html
-Frontend chatbot interface.
-
-requirements.txt
-List of Python dependencies required to run the project.
-
-README.md
-Project documentation.
-
-.gitignore
-Files that should not be pushed to GitHub.
+server.py        # FastAPI backend
+index.html       # Chatbot UI
+requirements.txt # Python dependencies
+README.md        # Project documentation
+.gitignore       # Ignored files
+```
 
 ---
 
@@ -97,55 +90,72 @@ This architecture allows the chatbot to provide answers grounded in the document
 
 ## 1. Clone the Repository
 
+```bash
 git clone https://github.com/Hridayyy1/swiggy-chatbot-rag.git
-
 cd swiggy-chatbot-rag
+```
 
 ---
 
 ## 2. Create a Virtual Environment (Recommended)
 
+```bash
 python -m venv venv
+```
 
-Activate the environment
+### Activate the virtual environment
 
-Mac/Linux
+**Mac / Linux**
 
+```bash
 source venv/bin/activate
+```
 
-Windows
+**Windows**
 
+```bash
 venv\Scripts\activate
+```
 
 ---
 
 ## 3. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
 # Running the Application
 
-Start the FastAPI server
+Start the FastAPI server:
 
-uvicorn server --reload
+```bash
+uvicorn server:app --reload
+```
 
-The API server will start at
+The backend will start at:
 
+```
 http://127.0.0.1:8000
+```
 
-FastAPI automatically provides API documentation at
+You can also access the **FastAPI interactive API docs**:
 
+```
 http://127.0.0.1:8000/docs
+```
 
 ---
 
 # Running the Chatbot Interface
 
-Open the file
+Simply open:
 
+```
 index.html
+```
 
 in your browser.
 
@@ -166,19 +176,19 @@ You can try questions such as:
 
 # Key Features
 
-Document Question Answering
+**Document Question Answering**
 Allows users to ask questions directly from a large PDF document.
 
-Semantic Search
+**Semantic Search**
 Uses embeddings to find the most relevant document sections.
 
-Vector Database
+**Vector Database**
 Efficient similarity search using ChromaDB.
 
-FastAPI Backend
+**FastAPI Backend**
 High-performance API for handling requests.
 
-Interactive Chatbot UI
+**Interactive Chatbot UI**
 Simple and clean interface for asking questions.
 
 ---
